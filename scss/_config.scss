@@ -1,0 +1,46 @@
+@font-face {
+  font-family: 'Raleway';
+  src: url('/assets/fonts/Raleway-Regular.woff2') format('woff2'),
+       url('/assets/fonts/Raleway-Regular.woff') format('woff');
+  font-weight: normal;
+  font-style: normal;
+  font-display: swap;
+}
+@font-face {
+  font-family: 'Raleway';
+  src: url('/assets/fonts/Raleway-Bold.woff2') format('woff2'), 
+       url('/assets/fonts/Raleway-Bold.woff') format('woff');
+  font-weight: bold;
+  font-style: normal;
+  font-display: swap;
+}
+@font-face {
+  font-family: 'OpenSans';
+  src: url('/assets/fonts/OpenSans-Regular.woff2') format('woff2'),
+       url('/assets/fonts/OpenSans-Regular.woff') format('woff');
+  font-weight: normal;
+  font-style: normal;
+  font-display: swap;
+}
+@font-face {
+  font-family: 'OpenSans';
+  src: url('/assets/fonts/OpenSans-Bold.woff2') format('woff2'),
+       url('/assets/fonts/OpenSans-Bold.woff') format('woff');
+  font-weight: bold;
+  font-style: normal;
+  font-display: swap;
+}
+
+$intro: hsl(217, 28%, 15%);
+$mainBg: hsl(218, 28%, 13%);
+$footerBg: hsl(216, 53%, 9%);
+$testimonialsBg: hsl(219, 30%, 18%);
+$cyangradient: hsl(176, 68%, 64%);
+$bluegradient: hsl(198, 60%, 50%);
+$white: hsl(0, 0%, 100%);
+
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
