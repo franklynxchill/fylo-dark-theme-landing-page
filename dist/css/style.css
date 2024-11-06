@@ -192,7 +192,7 @@ header .logo {
 }
 @media (width > 45em) {
   .section .img {
-    width: 40%;
+    width: 42%;
     margin-bottom: unset;
     margin-right: 3rem;
   }
@@ -251,7 +251,7 @@ header .logo {
 }
 @media (width > 45em) {
   .testimonial {
-    grid-template-columns: 30.33% 30.33% 30.33%;
+    grid-template-columns: 29% 29% 29%;
   }
 }
 .testimonial .group {
@@ -270,7 +270,7 @@ header .logo {
 }
 @media (width > 45em) {
   .testimonial .group > p {
-    font-size: 0.84rem;
+    font-size: 1rem;
   }
 }
 .testimonial .profile {
