@@ -64,7 +64,7 @@ header {
   display: flex;
   justify-content: space-between;
   align-items: center;
-  padding: 2rem 1.7rem 3rem;
+  padding: 2rem 1.2rem 3rem;
   background-color: hsl(217, 28%, 15%);
 }
 @media (width > 45em) {
@@ -112,7 +112,7 @@ header .logo {
     background-repeat: no-repeat;
     background-size: contain;
     background-position: center 37rem;
-    height: 59rem;
+    height: 56rem;
     padding-top: unset;
     margin-bottom: unset;
   }
@@ -122,6 +122,7 @@ header .logo {
   width: 21rem;
   padding-top: 2rem;
   margin: 0 auto;
+  font-family: "Raleway";
 }
 @media (width > 45em) {
   .intro h1 {
@@ -170,6 +171,7 @@ header .logo {
 }
 .display h3 {
   margin: 2rem 0 1rem;
+  font-family: "Raleway";
 }
 
 .section {
@@ -190,7 +192,7 @@ header .logo {
 }
 @media (width > 45em) {
   .section .img {
-    width: 45%;
+    width: 40%;
     margin-bottom: unset;
     margin-right: 3rem;
   }
@@ -200,12 +202,19 @@ header .logo {
 }
 @media (width > 45em) {
   .section div {
-    width: 35rem;
+    width: 31rem;
   }
 }
 .section h2 {
   margin: 1rem 0 2rem;
   font-size: 1.3rem;
+}
+@media (width > 45em) {
+  .section h2 {
+    font-size: 1.9rem;
+    width: 23rem;
+    font-family: "Raleway";
+  }
 }
 .section p {
   margin-bottom: 1rem;
@@ -213,7 +222,7 @@ header .logo {
 }
 @media (width > 45em) {
   .section p {
-    font-size: 1rem;
+    font-size: 0.9rem;
   }
 }
 .section .arrow-icon a {
@@ -222,8 +231,8 @@ header .logo {
   gap: 0.3rem;
   color: hsl(176, 68%, 64%);
   border-bottom: 1px solid hsl(176, 68%, 64%);
-  width: 12rem;
-  font-size: 1.1rem;
+  width: 11rem;
+  font-size: 1rem;
 }
 .section .arrow-icon a img {
   width: 1.5rem;
@@ -242,23 +251,32 @@ header .logo {
 }
 @media (width > 45em) {
   .testimonial {
-    grid-template-columns: 23rem 23rem 23rem;
+    grid-template-columns: 30.33% 30.33% 30.33%;
   }
 }
 .testimonial .group {
   background-color: hsl(219, 30%, 18%);
-  padding: 2rem;
+  padding: 2rem 1rem;
   border-radius: 13px;
   z-index: 3;
 }
 @media (width > 45em) {
   .testimonial .group {
-    padding: 2rem 1.5rem;
+    padding: 2rem 1.2rem;
+  }
+}
+.testimonial .group > p {
+  font-size: 0.8rem;
+}
+@media (width > 45em) {
+  .testimonial .group > p {
+    font-size: 0.84rem;
   }
 }
 .testimonial .profile {
   display: flex;
   margin-top: 1rem;
+  font-size: 0.8rem;
 }
 .testimonial .img {
   width: 2rem;
@@ -276,11 +294,8 @@ header .logo {
 @media (width > 45em) {
   .testimonial .bg-quotes {
     top: -2rem;
-    left: 6.5rem;
+    left: 2rem;
   }
-}
-.testimonial .bg-quotes .img {
-  width: 0.2rem;
 }
 
 .call-to-action {
@@ -311,6 +326,7 @@ header .logo {
 @media (width > 45em) {
   .call-to-action h3 {
     font-size: 2.1rem;
+    font-family: "Raleway";
   }
 }
 .call-to-action p {
@@ -396,8 +412,8 @@ footer .footer-one {
 }
 @media (width > 45em) {
   footer .footer-one {
-    grid-template-columns: 25rem 17rem 10rem 10rem 10rem;
-    row-gap: 0.6rem;
+    grid-template-columns: 38% 20% 13.5% 13.5% 15%;
+    row-gap: 1rem;
   }
 }
 footer .about-me {

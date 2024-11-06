@@ -34,7 +34,7 @@ header {
   display: flex;
   justify-content: space-between;
   align-items: center;
-  padding: 2rem 1.7rem 3rem;
+  padding: 2rem 1.2rem 3rem;
   background-color: $intro;
   @media (width > 45em) {
     padding: 2rem 3rem;
@@ -80,7 +80,7 @@ header {
     background-repeat: no-repeat;
     background-size: contain;
     background-position: center 37rem;
-    height: 59rem;
+    height: 56rem;
     padding-top: unset;
     margin-bottom: unset;
   }
@@ -91,6 +91,7 @@ header {
     width: 21rem;
     padding-top: 2rem;
     margin: 0 auto;
+    font-family: 'Raleway';
     @media (width > 45em) {
       font-size: 2.1rem;
       width: 38rem;
@@ -134,6 +135,7 @@ header {
 
   h3 {
     margin: 2rem 0 1rem;
+    font-family: 'Raleway';
   }
 }
 
@@ -151,7 +153,7 @@ header {
     width: 90%;
     margin-bottom: 4rem;
     @media (width > 45em) {
-      width: 45%;
+      width: 40%;
       margin-bottom: unset;
       margin-right: 3rem;
     }
@@ -160,20 +162,25 @@ header {
   div {
     width: 21rem;
     @media (width > 45em) {
-      width: 35rem;
+      width: 31rem;
     }
   }
 
   h2 {
     margin: 1rem 0 2rem;
     font-size: 1.3rem;
+    @media (width > 45em) {
+      font-size: 1.9rem;
+      width: 23rem;
+      font-family: 'Raleway';
+    }
   }
 
   p {
     margin-bottom: 1rem;
     font-size: 1.1rem;
     @media (width > 45em) {
-      font-size: 1rem;
+      font-size: .9rem;
     }
   }
 
@@ -183,8 +190,8 @@ header {
     gap: .3rem;
     color: $cyangradient;
     border-bottom: 1px solid $cyangradient;
-    width: 12rem;
-    font-size: 1.1rem;
+    width: 11rem;
+    font-size: 1rem;
 
     img {
       width: 1.5rem;
@@ -203,22 +210,30 @@ header {
   position: relative;
   font-size: .95rem;
   @media (width > 45em) {
-    grid-template-columns: 23rem 23rem 23rem;
+    grid-template-columns: 30.33% 30.33% 30.33%;
   }
 
   .group {
     background-color: $testimonialsBg;
-    padding: 2rem;
+    padding: 2rem 1rem;
     border-radius: 13px;
     z-index: 3;
     @media (width > 45em) {
-      padding: 2rem 1.5rem;
+      padding: 2rem 1.2rem;
+    }
+  }
+
+  .group > p {
+    font-size: .8rem;
+    @media (width > 45em) {
+      font-size: .84rem;
     }
   }
 
   .profile {
     display: flex;
     margin-top: 1rem;
+    font-size: .8rem;
   }
 
   .img {
@@ -235,11 +250,7 @@ header {
     left: 1.5rem;
     @media (width > 45em) {
       top: -2rem;
-      left: 6.5rem;
-    }
-
-    .img {
-      width: .2rem;
+      left: 2rem;
     }
   }
 }
@@ -269,6 +280,7 @@ header {
     margin-bottom: 1rem;
     @media (width > 45em) {
       font-size: 2.1rem;
+      font-family: 'Raleway';
     }
   }
 
@@ -347,8 +359,8 @@ footer {
     margin-top: 1.5rem;
     row-gap: 1rem;
     @media (width > 45em) {
-      grid-template-columns: 25rem 17rem 10rem 10rem 10rem;
-      row-gap: .6rem;
+      grid-template-columns: 38% 20% 13.5% 13.5% 15%;
+      row-gap: 1rem;
     }
   }
 
